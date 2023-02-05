@@ -1,0 +1,61 @@
+.formHeadings h4 {
+  font-size: 20px;
+  color: #0f172a;
+}
+
+.formHeadings p {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+/* .formFields {
+  margin-top: 16px;
+} */
+
+.formFields .formInputField {
+  margin-top: 16px;
+}
+
+.formFields label {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  color:#0f172a;
+}
+
+.formFields input {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.formFields input::placeholder {
+  font-size: 14px;
+  color: #9ca3af;
+}
+
+.formActions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formActions button {
+  display: inline-flex;
+  border: none;
+  padding: 8px 12px;
+  background-color: #0f172a;
+  font-weight: 500;
+  color: white;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 800px) {
+  .form {
+    background-color: white;
+    padding: 16px;
+    border-radius: 4px;
+  }
+}
